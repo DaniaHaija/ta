@@ -1,0 +1,73 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+   margin: auto;
+}
+.navbar{
+    background-color: #353434;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 50%;
+}
+ .list ul{
+    list-style-type: none;
+    display: flex;
+  
+}
+.list li a{
+    color :beige;
+    text-decoration-line: none;
+    padding: 10px;
+}
+
+
+.header{
+    background-color: #5e5c5c;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: beige;
+    font-size: 3.25rem;
+    font-weight: 700;
+    }
+ 
+    
+.Portfolio{
+    background-color: white;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.Portfolio .container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.Portfolio-item{
+    width: 33.33%;
+    text-align: center;
+}
+.Portfolio img{
+    width: 100%;
+    display: block;
+}
+
+.row{
+    display: flex;
+    gap: 10px;
+}
